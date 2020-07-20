@@ -1,0 +1,89 @@
+body {
+    margin: 0px
+}
+
+.logo h1 {
+
+}
+
+
+nav {
+display: flex;
+}
+
+.ul {
+    padding-top: 5px;
+}
+
+.menu li{
+    padding-right: 10px;
+    display: inline;
+
+}
+
+.menu a {
+
+}
+.box {
+    position: relative;
+    width: 100vw;
+    height: 100vh;   
+}
+
+.left {
+    position: absolute;
+    top: 0%;
+    bottom: 05;
+    left: 0%;
+    right: 80%;
+    background-color: blue;
+    height: 100vh;
+
+}
+
+.circle {
+    margin-top: 30px;
+    margin-left: 80px;
+    width: 35%;
+    height: 15%;
+    border-radius: 75px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.circle p {
+    margin-top: 17px;
+}
+
+.circle:hover {
+    border: 4px solid
+}
+
+.secondlist a {
+    text-decoration: none;
+    color: white;
+}
+
+.secondlist:hover {
+border-top: 5px solid steelblue;
+}
+
+
+.secondlist:hover {
+color: teal;
+}
+
+.right {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 20%;
+    right: 0px;
+    background-color: tomato;
+}
+
+.try {
+
+}
+

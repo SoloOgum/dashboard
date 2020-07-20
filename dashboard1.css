@@ -1,0 +1,128 @@
+body {
+    margin:0px;
+}
+
+.logo{
+    font-size: 40px;
+    color: tomato;
+    font-family: cursive;
+    margin-right: 700px;
+}
+
+nav {
+    background-color: blue;
+    margin: 0px;
+    display: flex;
+    z-index: 20;
+    position: absolute;
+    width: 100%;
+}
+
+.navmenu ul {
+    display: flex;
+ 
+}
+
+.navmenu a {
+    text-decoration: none;
+    color: white;
+    margin: 7px;
+}
+
+.vericalcontainer {
+    position: relative;
+    width: 100vw;
+    height: 100vh;   
+}
+
+ul {
+    padding-top: 7px;
+    padding-left: 0px;
+    font-size: 20px;
+    color: white;
+    list-style-type: none;
+    line-height: 50px;
+    font-family: cursive;
+
+}
+
+.leftmenu {
+    position: absolute;
+    top: 0%;
+    bottom: 05;
+    left: 0%;
+    right: 80%;
+    background-color: blue;
+    height: 100vh;
+    /* text-align: center; */
+
+}
+
+.verticallist ul {
+    text-align: center;
+ 
+}
+
+.roundM {
+    margin-top: 150px;
+    margin-left: 100px;
+    width: 35%;
+    height: 15%;
+    border-radius: 30px;
+    border: 4px solid;
+    text-align: center;
+    color: white;
+    background-color: tomato;
+    font-size: 70px;
+    font-weight: bolder;
+    font-family: cursive;
+    /* text-align: center; */
+}
+
+.roundM p {
+    margin-top: 10px;
+}
+
+.roundMe:hover {
+    border: 4px solid
+}
+
+.verticallist li{
+    
+    /* list-style: ; */
+     border-top: 1px solid white;
+    /* border-bottom: 1px solid white;  */
+}
+
+.verticallist li:last-child {
+    border-bottom: 1px solid white;
+}
+
+.verticallist a {
+    text-decoration: none;
+    color: white;
+}
+
+/* .verticallist:hover {
+border-top: 5px solid steelblue;
+} */
+
+
+a:hover {
+color: tomato;
+}
+
+.page {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 20%;
+    right: 0px;
+    background-color: tomato;
+    /* z-index: -1; */
+}
+
+.try {
+
+}
+
